@@ -1,0 +1,71 @@
+body{
+    font-family: 'Courrier';
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 5%;
+    width: 80vw;
+    height: 70vh;
+    background-color: rgb(30, 30, 30);
+}
+
+.Ligne{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(56, 56, 56);
+}
+
+.RankName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 175px;
+    background-color: rgb(255, 191, 127);
+}
+
+.ParametreBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 175px;
+    background-color: black;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+    background-color: antiquewhite;
+}
+
+.DivCard {
+    width: 100%;
+    display: flex;
+}
+
+.StockCard {
+    width: 70%;
+    display: flex;
+    margin-top: 3%;
+    padding: 10px;
+    width: 80vw;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.ButtonParametre {
+    width: 40px;
+    height: 40px;
+}
